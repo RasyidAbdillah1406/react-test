@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Modal from './components/Modal';
+import Todo from './components/Todo'
+import Example from './components/TryIt'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Todo text='Learn it!'/>
+      <Todo text='Embrace it!'/>  
+      <Todo text='Love it!'/>
+      <h1>Hey there buddy!</h1>
+      <div>
+        <h2>Delete it please</h2>
+        <div>
+          <button>Delete</button>
+        </div>
+      </div>
+      <Modal/> */}
+      <Example/>
     </div>
   );
 }
