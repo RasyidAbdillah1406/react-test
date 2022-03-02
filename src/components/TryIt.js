@@ -10,6 +10,9 @@ function Example(props) {
       <button onClick={() => setCount(count + 1)}>
         Click me
       </button>
+      <button onClick={() => setCount(count - 1)}>
+        Deduct me
+      </button>
     </div>
   );
 }
